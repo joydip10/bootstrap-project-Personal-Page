@@ -1,0 +1,184 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+.section-title h3{
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.hr-style{
+    border: 5px dotted white;
+    border-bottom: none;
+    width: 50px;
+}
+
+/* header starts */
+header{
+    background-image: url(images/banner-photo.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    padding: 1% 10%;
+    background-color: rgba(0,0,0,0.3);
+}
+.navbar-icon{
+    color:white;
+}
+.navbar-brand img{
+    width:60px;
+    height:auto;
+}
+.nav-link{
+    color:white;
+    margin:10px;
+    border-radius: 5px;
+    transition:0.4s;
+}
+.nav-link:hover{
+    background: #2980B9;
+    color:white;
+    transform:scale(1.1)
+}
+.banner-container{
+    height: 100vh;
+}
+.banner-container h1{
+    font-size: 3.5rem;
+    font-family: 'Handlee', cursive;
+    background-color: rgba(7,101,189,0.8);
+    padding: 10px;
+    border-radius: 5px;
+}
+/* header ends */
+
+/* Features Start */
+#features{
+    padding: 5%  10%;
+    background-color: #e8ded2;
+}
+.features-col{
+    border: 1px solid palevioletred;
+    border-radius: 5px;
+    padding: 15px;
+    margin:20px 0px;
+    transition:0.4s
+}
+.features-col:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+
+.icon-style{
+    background-color: #bb0acc;
+    color: white;
+    padding: 15px;
+    margin:5px 0px;
+}
+/* Features End */
+
+/* About me starts */
+#about-me{
+    padding: 4% 10%;
+    background-color: #e8ded2;
+}
+#about-me p{
+    font-size:0.9rem;
+    margin-bottom: 0;
+    font-weight: lighter;
+}
+#about-me a{
+    font-size: 0.9rem;
+    font-weight:lighter;
+    color: black;
+    text-decoration: underline;
+}
+
+/* Achievement section starts */
+.achieve-desc p span{
+    font-weight: 700 !important;
+}
+.star i{
+    width:20px;
+    color:rebeccapurple;
+}
+/* Achievement section ends */
+
+/* About me Ends */
+
+/* tutorials start */
+#tutorial{
+    padding:4% 10%;
+    background-color: #a3d2ca;
+}
+.card{
+    transition: 0.4s;
+    border:1px solid maroon;
+}
+.card:hover{
+    transform:scale(1.1);
+    box-shadow: 2px 5px 6px black;
+}
+/* tutorials end */
+
+/* Feedback section starts */
+#feedback{
+    padding: 7% 10%;
+    background-color: #5eaaa8;
+}
+.carousel-item {
+    padding: 10% 15%;
+    font-style: italic;
+}
+/* Feedback section ends */
+
+/* contact section starts */
+#contact-me{
+    padding: 2% 10%;
+    background-color: #5eaaa8;
+}
+.form-group{
+    margin-bottom: 0.5rem;
+}
+.form-group label{
+    margin-bottom: 0;
+    font-weight:bold;
+}
+.form-group .valid-feedback{
+    color: green;
+    font-weight: bold;
+}
+.form-group .invalid-feedback{
+    color: brown;
+    font-weight: bold;
+}
+/* contact section ends */
+
+/* Footer starts */
+footer{
+    padding:1% 10%;
+    background-color: #056676;
+}
+footer a{
+    text-decoration: none !important;
+    color:white !important;
+    padding: 1% 1%;
+    border:2px solid burlywood;
+    border-radius: 12%;
+    transition:0.4s;
+}
+footer a:hover{
+    background-color: coral;
+}
+footer .fab{
+    margin-right:15px;
+}
+/* Footer Ends */
